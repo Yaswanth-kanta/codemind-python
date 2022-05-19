@@ -1,0 +1,9 @@
+n=int(input())
+su=0
+pro=1
+while(n):
+    d=n%10
+    su=su+d
+    pro=pro*d
+    n=n//10
+print(pro-su)
