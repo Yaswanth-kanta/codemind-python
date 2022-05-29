@@ -1,2 +1,4 @@
 n=input()
-print(n[::-1])
+a=n.split()
+a.reverse()
+print(' '.join(a))
