@@ -6,11 +6,10 @@ def pri(n):
             return False
     else:
         return True
- 
 a=int(input())
 b=int(input())
-c=0 
-for i in range(a,b+1):
-    if pri(i):
-        c+=1
-print(c)
+s=0
+for k in range(a,b+1):
+    if pri(k):
+        s+=1
+print(s)
