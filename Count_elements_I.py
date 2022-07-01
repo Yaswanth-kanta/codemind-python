@@ -1,7 +1,11 @@
 x,y=map(int,input().split())
-a=list(map(int,input().split()))[:x]
-b=list(map(int,input().split()))[:y]
-c=set(a)
-d=set(b)
-e=c.intersection(d)
-print(len(e))
+a=list(map(int,input().split()))
+b=list(map(int,input().split()))
+c=[]
+for i in b:
+        if i in a:
+            if i not in c:
+                c.append(i)
+print(len(c))
+
+            
