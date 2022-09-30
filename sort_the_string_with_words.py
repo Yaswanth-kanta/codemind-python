@@ -1,0 +1,5 @@
+s=input()
+s=s.lower()
+s=s.split(' ')
+s.sort()
+print(*s)
